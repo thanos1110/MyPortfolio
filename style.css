@@ -111,6 +111,9 @@ img {
   margin-bottom: 50px;
 }
 
+#brand-name {
+  margin-left: 100px;
+}
 
 .text-box {
   width: 60%;
@@ -142,7 +145,7 @@ p {
 .theme-switch-wrapper {
   display: flex;
   align-items: center;
-  z-index: 100;
+  /* z-index: 100; */
   position: fixed;
   right: 25px;
   top: 30px;

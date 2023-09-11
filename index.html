@@ -14,43 +14,32 @@
 
 <body>
     <header>
-        <!-- Dark Mode Switch -->
-        <div class="theme-switch-wrapper">
-            <span id="toggle-icon">
-                <span class="toggle-text">Light Mode</span>
-                <i class="fas fa-sun"></i>
-            </span>
-            <label class="theme-switch">
-                <input type="checkbox">.
-                <div class="slider round"></div>
-            </label>
-        </div>
 
         <!-- Nav -->
         <nav class="navbar navbar-expand-lg navbar-light ">
-            <!-- <div class="container">
-                <a class="navbar-brand" href="#">Niranjan Patil</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div> -->
+            <!--<div class="container">
+            <a class="navbar-brand" href="#">Niranjan Patil</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div> -->
             <div class="navbar navbar-expand-lg">
                 <div class="container">
-                    <a class="navbar-brand toggle-text" href="#">Niranjan Patil</a>
+                    <a class="navbar-brand toggle-text" id="brand-name" href="#">Niranjan Patil</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -62,10 +51,20 @@
                             <li class="nav-item"><a href="#contact">CONTACT</a></li>
                         </ul>
                     </div>
+                    <!-- Dark Mode Switch -->
+                    <div class="theme-switch-wrapper">
+                        <span id="toggle-icon">
+                            <span class="toggle-text" id="change-text">Light Mode</span>
+                            <i class="fas fa-sun"></i>
+                        </span>
+                        <label class="theme-switch">
+                            <input type="checkbox">.
+                            <div class="slider round"></div>
+                        </label>
+                    </div>
                 </div>
             </div>
-            </div>
-        </nav>
+
         </nav>
     </header>
 
@@ -168,8 +167,6 @@
         </div>
     </section>
 
-
-    <script src="script.js"></script> <!-- Create this JS file for custom scripts -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -179,6 +176,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script src="script.js"></script> <!-- Create this JS file for custom scripts -->
 </body>
 
 </html>
